@@ -1,0 +1,281 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(45, 43, 43);
+}
+
+h1{
+    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    margin-bottom: 80px;
+}
+
+h1, h2, h3{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.3em;
+}
+
+
+nav{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 180px;
+    height: 43px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 10px 25px 10px 0;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    color:rgb(215, 32, 8);
+}
+
+.flexColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera{
+    background-image: url("/imagenes/hero_background.jpg");
+    background-position: center 90%;
+    background-size: cover;
+    
+    color: white;
+    min-height: 100vh;
+}
+
+.cabecera img{
+    width: 80%;
+    height: auto;
+}
+
+.lightgray{
+    color: rgb(173, 173, 173);
+}
+
+.darkgray{
+    color:rgb(97, 94, 94);
+}
+
+.servicios{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.enlaceAzafatas{
+    text-align: end;
+    color: rgb(97, 94, 94);
+}
+
+.enlaceAzafatas a:visited{
+    color: rgb(97, 94, 94);
+}
+
+.enlaceAzafatas a:hover{
+    color: rgb(215, 32, 8);
+}
+
+.flexServicios{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.iconoServicios{
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+}
+
+.iconoServicios img{
+    width: 100px;
+    height: 100px;
+}
+
+.iconoServicios a{
+    text-decoration: none;
+}
+
+.iconoServicios a:visited{
+    color: rgb(173, 173, 173);;
+}
+
+.iconoServicios a:hover{
+    color: rgb(215, 32, 8);
+}
+
+.colServicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.hijosServicios{
+    flex-basis: 33.33%;
+    margin: 0 80px;
+    letter-spacing: 0.04em;
+}
+
+.fuenteG{
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+.apuntate{
+    min-height: 40vh;
+    padding: 80px;
+    text-align: center;
+    line-height: 2.5em;
+    background-color: rgb(239, 239, 239);
+    font-size: 1.3em;
+}
+
+.apuntate a{
+    color: white;
+    background-color: rgb(45, 43, 43);
+}
+
+.apuntate a, .soluciones a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 40px;
+}
+
+.apuntate a:hover, .soluciones a:hover{
+    background-color:rgb(215, 32, 8);
+}
+
+.soluciones a{
+    color: black;
+    background-color: rgb(239, 239, 239); 
+    font-size: 0.9em;
+} 
+
+.soluciones{
+    background-image: url("/imagenes/cancan-background.jpg");
+    background-repeat: no-repeat;
+    background-position: 45% 15%;
+    background-size: 200%; /* ADVERTENCIA: suele dar mejor resultado para este tipo de imagenes usar background-size: cover;  */
+    min-height: 90vh;
+    
+    color:white;
+    font-size: 1.5em;
+    line-height: 2em;
+    
+    display:flex;
+    justify-content: space-around; 
+    align-items: center;  
+}
+
+.soluciones h2{
+    text-align: start;
+    line-height: 1.2em;
+}
+
+.soluciones div{
+    width: 700px;
+}
+
+.valores{
+    margin: 100px auto;
+    font-size: 1.5em;
+    line-height: 1.3em;
+}
+
+.valores h2{
+    margin: 100px 0 60px 0;
+}
+
+.flexValores{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    margin: 20px 40px;
+    padding: 0 40px;
+}
+
+.hijosFlex{
+    flex-basis: 30%;
+    padding:20px;
+    margin:10px;
+}
+
+.hijosFlex p{
+    padding: 30px;
+}
+
+.hijosFlex img{
+    width: 100px;
+    height: 100px;
+}
+
+
+footer{
+    background-color: rgb(238, 238, 238);
+    min-height: 50vh;
+    font-size: 1.3em;
+}
+
+.footerFlex{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    margin: 70px;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer li{
+    padding: 0 8px;
+    border-right: 1px solid black;
+    
+    color:rgb(45, 43, 43);
+    font-weight: bold;
+}
+
+footer li:last-child{
+    border:none;
+}
+
+footer li a{
+    text-decoration: none;
+    color:rgb(45, 43, 43);
+}
+
+footer li a:hover{
+    color:rgb(215, 32, 8);
+}

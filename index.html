@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- meta description y title -->
+    <meta name="description" content="Somos una empresa dedicada a los eventos. Proporcionamos todo lo que necesites para que sea un día perfecto: azafatas, animadores, fotógrafos, creativos, programadores...">
+    <title>Clock Events - Servicios para eventos</title>
+
+    <!-- Reseteo -->
+    <link rel="stylesheet" href="/css/normalize.css">
+
+    <!-- Inserto mi archivo CSS -->
+    <link rel="stylesheet" href="/css/css-clockevents.css">
+
+    <!-- Fuentes externas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="/imagenes/favicon.png">
+     
+</head>
+
+
+<body>
+
+    <!-- ¡navegacion principal -->
+    <nav>
+        <a href="#inicio"><img src="/imagenes/logo-white.png" alt="Ir al inicio" width="1806" height="428"></a>
+        <!-- ADVERTENCIA: si se inserta el atributo width y height en la etiqueta img es mejor indicar un valor de anchura/altura que sea igual o parecido al que luego configuras por CSS ya que si la imagen carga pero el CSS se retrasa por algún motivo se verá un logo excesivamente grande -->
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Personal</a></li>
+            <li><a href="#">Equipo</a></li>
+            <li><a href="#">Clientes</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="#">Contacto</a></li>
+         </ul>
+    </nav>
+
+    <!-- cabecera principal -->
+    <header class="cabecera flexColumn" id="inicio">
+            <h1>Personal, proyección y servicios para eventos</h1>
+            <img src="/imagenes/big-logo.png" alt="Logo Clock Events" width="1806" height="428">
+    </header>
+
+    <!-- contenido principal -->
+    <main>
+        <section class="servicios">
+            <h2>Nuestros servicios</h2>
+            
+            <div class="flexServicios lightgray">
+                <div class="iconoServicios">
+                    <a href="#" class="flexColumn">
+                        <img src="/imagenes/icono1.jpg" alt="Información sobre nuestro servicio de azafatas" width="200" height="200">
+                        <!-- ADVERTENCIA: estos iconos de los servicios parecen más de tipo decorativo por lo que tendrían alt="" -->
+                        <p>Azafatas</p>
+                    </a>
+                </div>
+        
+                <div class="iconoServicios">
+                    <a href="#" class="flexColumn">
+                        <img src="/imagenes/icono2.jpg" alt="Información sobre nuestro servicio de animación" width="200" height="200">
+                        <p>Animación</p>
+                    </a>
+                </div>
+
+                <div class="iconoServicios">
+                    <a href="#" class="flexColumn">
+                        <img src="/imagenes/icono3.jpg" alt="Información sobre nuestro servicio de fotógrafos" width="200" height="200">
+                        <p>Fotógrafos</p>  
+                    </a>
+                </div>
+
+                <div class="iconoServicios">
+                    <a href="#" class="flexColumn">
+                        <img src="/imagenes/icono4.jpg" alt="Información sobre nuestro servicio de creativos" width="200" height="200">
+                        <p>Creativos</p>
+                    </a>
+                </div>
+                
+                <div class="iconoServicios">
+                    <a href="#" class="flexColumn">
+                        <img src="/imagenes/icono5.jpg" alt="Información sobre nuestro servicio de programadores" width="200" height="200">
+                        <p>Programadores</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="colServicios lightgray">
+                <div class="hijosServicios">
+                    <p class="fuenteG">Clock Events cuenta con un equipo propio de azafatas con amplia experiencia en toda clase de eventos</p>
+                </div>
+                <div class="hijosServicios">
+                    <p>Mediante un minucioso proceso de selección, encontramos al profesional que mejor se ajusta a tus necesidades para ofrecer la mejor imagen de tu empresa.</p>
+                </div>
+                <div class="hijosServicios">
+                    <p>Ponemos a tu disposición profesionales formados específicamente para protocolo, ferias, congresos, entregas de premios, transfers e imagen, entre otros.</p>
+                    <div class="enlaceAzafatas">
+                        <a href="#">Más información sobre azafatas</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <aside class="apuntate">
+            <h2>Apúntate a nuestro newsletter</h2>
+            <a href="">Suscríbete</a>
+            <p class="darkgray">Olvida el spam. Nosotros también lo detestamos.</p>
+        </aside>
+
+        <section class="soluciones">
+            <div>
+               <h2>¿Buscas soluciones para diferenciar tu evento?</h2>
+                <p>Desde un show de Can-can al más puro estilo Far West hasta una noche de risa y terror en un caserón maldito. Lo tenemos.</p>
+                <a href="#">Contáctanos</a> 
+            </div>
+            <div>
+                <img src="/imagenes/logo-detalle.png" alt="Logo Clock Events" width="650" height="585">
+            </div>
+        </section>
+
+        <section class="valores">
+            <h2>Nuestros valores</h2>
+
+            <div class="flexValores">
+
+                <div class="hijosFlex flexColumn">
+                    <div>
+                        <img src="/imagenes/icono6.jpg" alt="" width="200" height="200">
+                    </div>
+                    <div>
+                        <h3>Siempre estamos ahí</h3>
+                        <p>Cada persona es un mundo, y cada evento es diferente. No concebimos una atención que no sea personalizada, cercana, profesional y cálida.</p>
+                    </div>
+                </div>
+                
+                <div class="hijosFlex flexColumn">
+                    <div>
+                        <img src="/imagenes/icono7.jpg" alt="" width="200" height="200">
+                    </div>
+                    <div>
+                        <h3>Somos creativos</h3>
+                        <p>La originalidad en la planificación y ejecución de nuestros proyectos nos permite plasmar en cada uno de ellos nuestro sello personal: la diferenciación.</p>
+                    </div>
+                </div>
+
+                <div class="hijosFlex flexColumn">
+                    <div>
+                        <img src="/imagenes/icono8.jpg" alt="" width="200" height="200">
+                    </div>
+                    <div>
+                        <h3>Tenemos pasión</h3>
+                        <p>Y la plasmamos en cada uno de los proyectos. Y la contagiamos. Tenemos el privilegio de amar lo que hacemos, y lo hacemos con el corazón.</p>
+                    </div>
+                </div>
+
+                <div class="hijosFlex flexColumn">
+                    <div>
+                        <img src="/imagenes/icono9.jpg" alt="" width="200" height="200">
+                    </div>
+                    <div>
+                        <h3>Cuidamos tu inversión</h3>
+                        <p>Somos conscientes del valor que tiene una inversión en nuestro trabajo, y nuestro objetivo es tu satisfacción con la misma. Vamos más allá de tus expectativas.</p>
+                    </div>
+                </div>
+
+                <div class="hijosFlex flexColumn">
+                    <div>
+                        <img src="/imagenes/icono10.jpg" alt="" width="200" height="200">
+                    </div>
+                    <div>
+                        <h3>Somos equipo</h3>
+                        <p>Gracias a que disponemos de unos recursos humanos seleccionados y coordinados específicamente para ti, podemos garantizar la calidad y calidez de nuestros servicios. Sabemos con quién trabajamos.</p>
+                    </div>
+                </div>
+
+                <div class="hijosFlex flexColumn">
+                    <div>
+                        <img src="/imagenes/icono11.jpg" alt="" width="100" height="100">
+                    </div>
+                    <div>
+                        <h3>Lo coordinamos</h3>
+                        <p>La coordinación activa y personal de cualquiera de nuestros servicios está incluida en los mismos. Estaremos allí, en tu evento, contigo. Nosotros nos ocupamos.</p>
+                    </div>
+                </div>
+            </div>
+      
+        </section>
+
+    </main>
+    <footer class="flexColumn">
+            <a href="#inicio"><img src="/imagenes/logo-footer.png" alt="Volver al inicio" width="156" height="60"></a>   
+            <ul class="footerFlex">
+                <li>&copy; Clock Events</li>
+                <li><a href="#">Aviso Legal</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+    </footer>
+</body>
+</html>
+
